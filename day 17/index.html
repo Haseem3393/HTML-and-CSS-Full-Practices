@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(5, 50px);
+            gap: 10px;
+        }
+
+        .item{
+            background-color: aqua;
+            text-align: center;
+            align-content: center;
+        }
+
+        .item1{
+            /* grid-row-start: 1;
+            grid-row-end: 3;
+
+            grid-column-start: 1;
+            grid-column-end: 3; */
+
+            grid-column: 1/3;
+            grid-row: 1/5;
+        }
+
+        .item2{
+            grid-row: span;
+        }
+
+
+
+        
+
+
+        
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="item1 item">Haseem1</div>
+        <div class="item2 item">Haseem2</div>
+        <div class="item3 item">Haseem3</div>
+        <div class="item4 item">Haseem4</div>
+        <div class="item5 item">Haseem5</div>
+        <div class="item6 item">Haseem6</div>
+        <div class="item7 item">Haseem7</div>
+        <div class="item8 item">Haseem8</div>
+        <div class="item9 item">Haseem9</div>
+        <div class="item10 item">Haseem10</div>
+        <div class="item11 item">Haseem11</div>
+        <div class="item12 item">Haseem12</div>
+        <div class="item13 item">Haseem13</div>
+
+
+
+
+
+
+
+      <!-- <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        rem placeat officiis vero, obcaecati et cumque inventore reprehenderit
+        quidem sint sed sunt maiores libero quaerat mollitia iste similique
+        labore. Provident?
+      </div> -->
+    </div>
+  </body>
+</html>

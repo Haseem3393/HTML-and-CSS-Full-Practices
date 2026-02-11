@@ -1,0 +1,43 @@
+/* All function implement this  */
+*{
+    color: red;       
+}
+
+
+/* h2 implement */
+
+h2{
+    color: green;
+}
+
+
+/* all div h2 implement this */
+
+div h2{
+    color: aqua;
+}
+
+
+/* * all div h2 implement this * */
+div > h2{
+    color: blue;
+}
+
+
+/* * con div h2 only implement this */ */
+
+.con > h2{
+    color: black;
+}
+
+/* * all con div h2 implement this */ */
+.con h2{
+    color: brown;
+}
+
+
+/* h1 implement */
+h1{
+    color: blueviolet;
+}
+

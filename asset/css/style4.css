@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* HEADER */
+.site-header {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* NAV */
+.site-nav {
+  background: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+.site-nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* MAIN LAYOUT */
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* SECTION */
+.posts {
+  flex: 3;
+}
+
+/* ARTICLE */
+.post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* ASIDE */
+.sidebar {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

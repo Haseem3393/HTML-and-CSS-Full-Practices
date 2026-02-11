@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-form</title>
+    <style>
+
+      ::selection{
+        background-color: green;
+      }
+
+      :active{
+        color: aqua;
+      }
+      body {
+        background-color: blueviolet;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        padding: 30px 20px;
+        width: 250px;
+        border-radius: 20px;
+      }
+
+      .login-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .input-group {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .input-group label {
+        margin-bottom: 5px;
+      }
+
+      .input-group input {
+        margin-bottom: 10px;
+      }
+
+      .forgot {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 5px;
+      }
+
+      .forgot a {
+        font-size: 15px;
+      }
+
+      .login-btn {
+        padding: 7px 10px;
+        border-radius: 20px;
+        border: none;
+        background: rebeccapurple;
+        color: white;
+      }
+
+      .or-text {
+        text-align: center;
+        font-size: 15px;
+      }
+
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 10px;
+      } 
+
+      .icon {
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+      }
+
+      .fb {
+        background: #3b5998;
+      }
+      .tw {
+        background: #1da1f2;
+      }
+      .gl {
+        background: #db4437;
+      }
+
+      .sign-up {
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form class="login-form">
+        <h1>Login</h1>
+        <div class="input-group">
+          <label>Username</label>
+          <input type="text" placeholder="Type your username" />
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="Type your password" />
+        </div>
+        <div class="forgot">
+          <p><a href="#forgot">Forgot password</a></p>
+        </div>
+        <button type="button" class="login-btn">Login</button>
+        <p class="or-text">Or Sign Up Using</p>
+
+        <div class="social-media">
+          <div class="fb icon">f</div>
+          <div class="tw icon">t</div>
+          <div class="gl icon">g</div>
+        </div>
+        <p class="or-text">Or Sign Up Using</p>
+        <a class="sign-up" href="#sign-up">SIGN UP</a>
+      </form>
+    </div>
+  </body>
+</html>

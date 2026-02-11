@@ -1,0 +1,40 @@
+
+
+/* div + h3{
+    color: red;
+} */
+
+/* div ~ h3{
+    color: green;
+} */
+
+/* div + h3::first-letter{
+    color: red;
+    font-size: 50px;
+} */
+
+/* p::before{
+    content: "$";
+    color: red;
+    font-size: 50px;
+}
+
+p::after{
+    content: "/-";
+} */
+
+ul li::before{
+    content: "#";
+}
+
+ul li::after{
+    content: "@";
+}
+
+::marker{
+    color: red;
+}
+
+h3::selection{
+    color: blueviolet;
+}

@@ -1,0 +1,109 @@
+.main {
+  background-color: antiquewhite;
+}
+
+.service-btn {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(156, 194, 227);
+  color: red;
+  margin-left: 50%;
+  margin-top: 30px;
+  
+}
+
+.main > h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+img {
+  width: 60px;
+  height: 30px;
+}
+
+.Skilled-based {
+  background-color: rgb(230, 230, 163);
+}
+
+.Skilled-based > h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Skilled-based > p {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.internship {
+  background-color: rgb(130, 141, 151);
+}
+
+.internship > h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.internship > p {
+  font-size: 15px;
+}
+
+.Earning {
+  background-color: rgb(157, 114, 59);
+}
+
+.Earning > h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Earning > p {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.lifetime {
+  background-color: rgb(6, 187, 187);
+}
+
+.lifetime > h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.lifetime > p {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.learn-more {
+  display: flex;
+  justify-items: flex-end;
+}
+
+.learn-more a {
+  text-decoration: none;
+}
