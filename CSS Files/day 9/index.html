@@ -1,62 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 9</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 16</title>
     <style>
-        /* h1[class="Head"]{
-            color: red;
-        } */
+      .container {
+        display: flex;
+        background-color: aqua;
+        height: 500px;
+      }
 
-        /* [class]{
-            color: green;
-        } */
+      .child {
+        background-color: red;
+        color: white;
+        margin: 10px;
+        line-height: 75px;
+        text-align: center;
+        border: 2px solid black;
+      }
 
-        /* h1[class="Head"]{
-            color: aqua;
-        } */
+      .one {
+        flex-grow: 1; /*toatal space devide pannum*/
+        order: 4; /*order wise pannum */
+        flex-shrink: 2; /*2 madangu kuraiyyum */
+        flex-basis: 20px; /*Entha divice le pathtahlum ore size than */
+        align-self: center; /*Child le kudukkure*/
+      }
 
-        /* [class~="css"]{
-            background-color: red;
-        } */
+      .two {
+        flex-grow: 2;
+        order: 3;
+        align-self: flex-start;
+      }
 
-        /* [class|="js"]{
-            background-color: rebeccapurple;
-        } */
+      .three {
+        flex-grow: 4;
+        order: 2;
+        align-self: flex-end;
+      }
 
-        [class^="js"]{
-            background-color: blue;
-        }
-
-       /* [class$="js"]{
-        background-color: brown;
-       } */
-
-
-       /* [class*="te"]{
-        background-color: yellow;
-       } */
-
-
-
-
-
-
+      .four {
+        flex-grow: 8;
+        order: 1;
+        align-self: stretch;
+      }
     </style>
-</head>
-<body>
-    <!-- <h1 class="php laraval react js">Heading 1</h1>
-    <p class="css js angular">Paragaraph 1</p>
-    <p class="note expres php css">Paragaraph 2</p> -->
-
-    <h1 class="js">Haseem</h1>
-    <p class="jscss css react php ">Ifathath</p>
-    <p class="js-laraval php">Afnas</p>
-
-
-    <!-- <div class="first-test">first div</div>
-    <div class="second-div">second div</div>
-    <div class="third-sets">third div</div> -->
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child one">1</div>
+      <div class="child two">2</div>
+      <div class="child three">3</div>
+      <div class="child four">4</div>
+    </div>
+  </body>
 </html>
